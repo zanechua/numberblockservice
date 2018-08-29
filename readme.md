@@ -19,7 +19,7 @@ Design information system, and deployment architecture. Discuss the type of API 
 
 The set-up of the microservice would start with a api gateway/load balancer which will redirect requests to the relevant microservice instance. The microservices will be connected to a SQL cluster that handles all the requests and will store the data in each of the MySQL Data Nodes. This allows us to eeasily scale horizontally by deploying more microservice instances or deploying more MySQL Data Nodes.
 
-![Architecture Diagram](https://i.imgur.com/501IM73.png)
+![Architecture Diagram](https://i.imgur.com/ao4VUpF.png)
 
 # Load balancing
 
